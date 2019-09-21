@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Newsweek</title>
+</head>
+<body>
+
+    
+    <!-- NAV -->
+    <nav style="z-index:-1; position: fixed;  background-color: rgb(247,34,16);" class="fixed align-content-center navbar  container-fluid
+     text-white navbar-dark">
+     <div class="row w-100" >
+      <a class="navbar-brand col-5 p-0 pl-3" style="height: 30px;" href="#">
+        <img src="img/logo.png"   alt="logo">
+      </a>
+      <div class="col pr-0 font-weight-bolder">
+        <div class="row justify-content-end pr-0">
+          <a class=" text-white px-2 pt-2 text-decoration-none" style="font-size:.8em;" href="#">SIGN IN</a>
+          <a class=" text-danger px-2 pt-2 text-decoration-none" style="font-size:.8em; background: white;" href="#" >SUBSCRIBE</a>
+          <button class="navbar-toggler p-0 ml-2 "  type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon" style=" width: 25px;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="style navbar-nav float-right  mt-3" style="margin-right: -1em; background: white;">
+              <li>
+                  <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-1"  type="text" placeholder="Search">
+                  </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">U.S.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Tech & Science</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Opinion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Ndelible</a>
+              </li>    
+            </ul>
+          </div> 
+        </div>
+      </div>
+     </div>
+    </nav>
+
+
+    <!-- HEADER -->
+    <div class="d-none d-lg-block" style=" background-color: rgb(244,245,246);" >
+            <header style="background-color: rgb(247,34,16); max-width:1320px; margin:0 auto;" class="container-fluid">
+              <div class="row justify-content-between align-items-end pb-3 px-3 pt-1">
+                <div class="text-white">Wed, Feb 13, 2019</div>
+                <a class="navbar-brand " href="#">
+                  <img src="img/logo-big.png" alt="logo">
+                </a>
+                <div>
+                    <a class=" text-white  text-decoration-none pr-2 font-weight-bolder" href="#">SIGN IN</a>
+                    <a class=" text-danger  text-decoration-none font-weight-bolder p-2" style=" background: white;" href="#" >SUBSCRIBE</a>
+                </div>
+              </div>
+              <nav class="head row navbar navbar-expand" style=" background-color: white;">
+                <ul class="navbar-nav  container-fluid">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">U.S.</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">World</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Business</a>
+                  </li>
+                  <li class="nav-item" style="min-width:170px;">
+                    <a class="nav-link"  href="#">Tech & Science</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Culture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Health</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opinion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ndelible</a>
+                  </li>   
+                  <li>
+                    <form class="form-inline" action="/action_page.php">
+                      <input class="form-control mr-1"  type="text" placeholder="Search" style="width:100%;">
+                    </form>
+                  </li> 
+                </ul>
+              </nav>
+            </header>
+          </div> 
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>

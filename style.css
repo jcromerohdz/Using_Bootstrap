@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(244,245,246);
+  }
+
+  @media only screen and (max-width: 400px) {
+    [alt="logo"] {
+      width: 110px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    main {
+    z-index: -2;
+    position: static !important;
+  }
+
+  nav.fixed {
+    position: sticky !important; top: 0;
+    z-index: 1 !important;
+  }
+
+  }
+  main {
+    z-index: -2;
+    position: absolute;
+  }
+
+  ul.style a:hover {
+    background: black;
+    color: white !important;
+  }
+
+  ul.style a {
+    padding-left: 1em !important;
+  }
+  
+  nav.head ul li a {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: black;
+    
+    padding: 0;
+  }
+
+  nav.head ul li {
+    border-left: 1px solid rgba(187, 186, 186, 0.698);
+    padding-left: 1em;
+  }
+
+  nav.head ul li:first-of-type,
+  nav.head ul li:last-of-type {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  [href="former"] {
+    text-decoration-color: red !important;
+    color: black; 
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  [href="former"]:hover {
+    color: black;
+  }
+  
+  [href="Giuliani"]:hover {
+    color: red !important;
+  }
+
+  h6 {
+    color:grey;
+  }
+
+  [href="Parkland"]:hover,
+  [href="Parkland"] {
+    color:black;
+  }
+
+  [href="Parkland"]:hover {
+    text-decoration-color: red;
+  }
+
+
+  @media only screen and (max-width: 480px){
+    [alt="MORE STORIES image"] {
+      width: 150px !important;
+    }
+
+    .latest-news article {
+       min-height: 130px !important;
+     }
+  }
+
+  [alt="MORE STORIES image"] {
+    width: 255px;
+  }
+   
+  .latest-news article {
+    min-height: 200px;
+  }
+
+  
+  
+  .opinion a:hover,
+  .latest-news article a:hover,
+  [href="White House"]:hover {
+    color: red !important;
+  }
+
+  .sign-up a:first-of-type:hover {
+    background-color: rgb(180, 180, 180) !important;
+  }
+
+  [href="features"]:hover {
+    background: rgb(216, 214, 214) !important;
+  }
+
+  [href="Kareem"],
+  [href="muslim women"],
+  [href="Couple"],
+  [href="Digital"] {
+    color: black;
+  }
+  
+  [href="Kareem"]:hover,
+  [href="muslim women"]:hover,
+  [href="Couple"]:hover,
+  [href="Digital"]:hover {
+    color: black;
+    text-decoration-color: red;
+  }
+
+  [href="Couple"] {
+    margin: .5em 0 1em 0;
+    display: block;
+  }
+
+  [href="Digital"] {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: .5em;
+  }
+
+  footer a {
+    text-decoration: none !important;
+    color: grey;
+    
+  }
+
+  footer a:hover {
+    color: rgb(82, 82, 82);
+  }
+
+  .padding a {
+    padding: .5em;
+  }
+
+  [alt="MORE-STORIES-image"] {
+    width: 150px;
+  }
+
+  
+
+  @media only screen and (min-width: 768px) {
+    .featured-slideshows .row:last-of-type div {
+      border-top: none !important;
+    }
+
+    .latest-news .article {
+     min-height: 0;
+     font-size: .9em;
+     margin-top: 0 !important;
+    
+   }
+
+   .latest-news .article img {
+    margin-bottom: 1em;
+     
+   }
+
+   .latest-news .article a {
+   margin-top: -.5em;
+   }
+
+   .subscribe div {
+     border-bottom: 0 !important;
+   }
+
+   .small-pic {
+      max-width: 140px;
+      max-height: 100px;
+    }
+  }
+
